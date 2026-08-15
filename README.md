@@ -19,7 +19,7 @@ Projeto acadêmico desenvolvido com PHP, Bootstrap, JavaScript e MySQL para impl
 
 ## Como executar
 
-1. Tenha Docker e Docker Compose instalados.
+1. Tenha Docker instalado.
 2. No diretório do projeto, execute:
 
 ```bash
