@@ -54,4 +54,3 @@ docker compose up --build
 - O banco é criado automaticamente no primeiro start do container MySQL.
 - O Apache foi configurado para servir a pasta `public` como raiz do projeto.
 - O MySQL usa um volume nomeado do Docker, sem necessidade de pasta `.docker` no projeto.
-# Trabalho-Faculdade-WEB
