@@ -23,13 +23,18 @@ Projeto acadêmico desenvolvido com PHP, Bootstrap, JavaScript e MySQL para impl
 2. No diretório do projeto, execute:
 
 ```bash
-docker compose up --build
+docker compose up build
+```
+e depois rode 
+
+```bash
+docker compose up -d
 ```
 
 3. Acesse:
 
 - Aplicação: `http://localhost:8000`
-- PHPMyAdmin: `http://localhost:8080`
+- PHPMyAdmin: `http://localhost:8080` user root | password root
 - MySQL: `localhost:3300`
 
 ## Credenciais do banco
@@ -48,10 +53,3 @@ docker compose up --build
 - Validar formulário com JavaScript e PHP
 - Proteger senhas com `password_hash`
 
-## Observações
-
-- O campo `marca` foi mantido como único, conforme solicitado na atividade.
-- O banco é criado automaticamente no primeiro start do container MySQL.
-- O Apache foi configurado para servir a pasta `public` como raiz do projeto.
-- O MySQL usa um volume nomeado do Docker, sem necessidade de pasta `.docker` no projeto.
-# Trabalho-Faculdade-WEB
