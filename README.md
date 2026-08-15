@@ -37,13 +37,6 @@ docker compose up -d
 - PHPMyAdmin: `http://localhost:8080` user root | password root
 - MySQL: `localhost:3300`
 
-## Credenciais do banco
-
-- Banco: `sistema_db`
-- Usuário: `sistema_user`
-- Senha: `sistema_pass`
-- Root: `root`
-
 ## Funcionalidades
 
 - Criar produtos
