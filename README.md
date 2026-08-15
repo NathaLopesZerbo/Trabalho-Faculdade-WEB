@@ -34,7 +34,7 @@ docker compose up -d
 3. Acesse:
 
 - Aplicação: `http://localhost:8000`
-- PHPMyAdmin: `http://localhost:8080`
+- PHPMyAdmin: `http://localhost:8080` senha root | root
 - MySQL: `localhost:3300`
 
 ## Credenciais do banco
