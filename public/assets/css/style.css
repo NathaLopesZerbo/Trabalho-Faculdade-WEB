@@ -1,0 +1,74 @@
+:root {
+    --brand-dark: #123458;
+    --brand-mid: #1f6e8c;
+    --brand-accent: #f2b134;
+    --brand-soft: #eef6fb;
+    --text-main: #1c2430;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background:
+        radial-gradient(circle at top left, rgba(242, 177, 52, 0.22), transparent 28%),
+        linear-gradient(180deg, #f7fafc 0%, #edf4f8 100%);
+    color: var(--text-main);
+    min-height: 100vh;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, rgba(18, 52, 88, 0.97), rgba(31, 110, 140, 0.95));
+    color: #fff;
+}
+
+.navbar-brand {
+    letter-spacing: 0.04em;
+}
+
+.hero-card,
+.content-card {
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+}
+
+.hero-card {
+    padding: 1.5rem;
+    color: var(--text-main);
+    box-shadow: 0 20px 45px rgba(7, 24, 39, 0.18);
+}
+
+.hero-card li + li {
+    margin-top: 0.65rem;
+}
+
+.content-card {
+    box-shadow: 0 15px 40px rgba(10, 35, 66, 0.08);
+}
+
+.table thead th {
+    color: var(--brand-dark);
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: var(--brand-mid);
+    border-color: var(--brand-mid);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--brand-dark);
+    border-color: var(--brand-dark);
+}
+
+.form-control:focus,
+.form-check-input:focus {
+    border-color: var(--brand-mid);
+    box-shadow: 0 0 0 0.25rem rgba(31, 110, 140, 0.15);
+}
+
+@media (max-width: 767.98px) {
+    .display-5 {
+        font-size: 2.2rem;
+    }
+}
